@@ -4,8 +4,6 @@ include("connection.php");
 
 $data = $connection->query("SELECT * FROM employees_data");
 
-$name = "Amit";
-
 ?>
 
 <!DOCTYPE html>
